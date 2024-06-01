@@ -1,0 +1,27 @@
+p{
+    font-size: large;
+    color:rgb(red, green, blue)
+}
+#para1{
+    color: green;
+    background-color: aquamarine;
+    border: 2px dashed blue;
+    margin: 5px;
+    padding: 5px;
+    width:max(50%,500px);/*min also be used*/
+}
+
+.center{
+    text-align: center;
+    color:rgb(0, 3, 3);
+    border-style: dotted dashed double solid;
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin:10px;
+
+}
+/*this is universal selector for the font*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
